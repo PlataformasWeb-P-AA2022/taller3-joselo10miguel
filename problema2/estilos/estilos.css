@@ -1,0 +1,19 @@
+.colums {
+	width: 100%
+}
+
+.column{
+	width 100%;
+}
+@media (media-width: 48em){
+	.column {
+		width: 50%;
+		float: left;
+	}
+	.columns {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
