@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-    <title>Ejemplo HTML5 y CSS3</title>
+    <title>Ejercicio 2</title>
     <script>
       $( function() {
       $( "#datepicker" ).datepicker();
@@ -17,18 +17,19 @@
   </head>
 <body>
     <div class="columns">
-        <div class="column uno">
+        <div class="columnUno">
             <div>
+                <p>____Datos Personales____ </p>
                 <p> Nombre: </p>
-                <input id = "nombre" type="text" name="" placeholder="nombre">
+                <input id = "nombre" type="text" name="" placeholder="Ingrese su nombre">
                 <p> Apellido: </p>
-                <input id ="apellido" type="text" name="" placeholder="apellido">
+                <input id ="apellido" type="text" name="" placeholder="Ingrese su apellido">
                 <p> Fecha de Nacimiento </p>
-                <input type="text" id="datepicker">
+                <input type="text" id="datepicker" >
                <p><button type="submit">Generar Mensaje</button></p> 
             </div>
         </div>
-        <div class="column dos">
+        <div class="columnDos">
             <p id="mensajeFinal"></p>
         </div>
     </div>
@@ -39,7 +40,7 @@
         var texto1 = $('#nombre').val();
         var texto2 = $('#apellido').val();
         var texto3 = $('#datepicker').val();
-        $('#mensajeFinal').append("Datos Ingresados: "+ "<br>"
+        $('#mensajeFinal').append("___Datos Ingresados:____ "+ "<br>"
             + texto1 + "<br>"
             + texto2 + "<br>"
             +texto3 + "<br>");

@@ -3,7 +3,7 @@
 }
 
 .column{
-	width 100%;
+	width: 100%;
 }
 @media (media-width: 48em){
 	.column {
@@ -16,4 +16,14 @@
 		clear: both;
 	}
 }
+.columnUno{
+	font-weight: bold;
+}
 
+.columnDos{
+	position: relative;
+	left: 20%;
+    font-weight: bold;
+	bottom: 230px;
+	font-size:larger;
+}
